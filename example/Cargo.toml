@@ -1,0 +1,14 @@
+[package]
+name = "example"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "example"
+path = "src/main.rs"
+
+[dependencies]
+batchi = { workspace = true }
